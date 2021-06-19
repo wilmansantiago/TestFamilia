@@ -1,0 +1,14 @@
+<mvc:View
+    controllerName="com.iris.familia.controller.Detalle"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+
+<Page title = "Francy">
+
+<content></content>
+<Button press=".Atras"></Button>
+
+</Page>
+</mvc:View>

@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="com.iris.familia.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+
+<Page title = "Katherine">
+<Button press=".Ir"></Button>
+<content>
+
+        <List items = "{Northwind.svc>/Employees}">
+            <items >
+                <StandardListItem title="{Northwind.svc>FirstName}">
+                
+                
+                </StandardListItem>
+            </items>
+        </List>
+</content>
+
+</Page>
+</mvc:View>
